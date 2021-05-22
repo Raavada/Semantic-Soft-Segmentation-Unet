@@ -89,12 +89,11 @@ EXPERIMENTAL ANALYSIS
 Semantic soft segmentation, being at the intersection of semantic segmentation, natural
 image matting, and soft segmentation, is challenging to evaluate numerically.
 It should be noted that it is not uncommon for our method to represent the same object in
-multiple segments such as the horse carriage in Figure 9 (2) or the background fence in Figure
-9 (4). This is mainly due to the preset number of layers, five, sometimes exceeds the number
-of meaningful regions in the image
-Some small
-objects may be missed in the final segments despite being detectedby the semantic features,
-such the people in the background in Figure 10 (5). This is due to the fact that, especially when
+multiple segments such as the horse carriage  or the background fence in . 
+This is mainly due to the preset number of layers, five, sometimes exceeds the number
+of meaningful regions in the image Some smallobjects may be missed in the final segments
+despite being detectedby the semantic features,
+such the people in the background . This is due to the fact that, especially when
 the color of the object is similar to the surroundings, the objects do not appear well-defined
 in the eigenvectors and they end up being merged into closeby segments.
 Our semantic features are not instance-aware, i.e. the features of two different objects of the
